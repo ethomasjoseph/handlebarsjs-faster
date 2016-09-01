@@ -1,0 +1,12 @@
+{
+    "people" : [
+        {
+            "name": "Jack",
+            "role": "Captain"
+        },
+        {
+            "name": "Jill",
+            "role": "Sailor"
+        }
+    ]
+}

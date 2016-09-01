@@ -1,0 +1,30 @@
+{
+  "name": "handlebarsjs-faster",
+  "version": "0.1.0",
+  "description": "Handlebars plumbing work which makes it easy to integrate Handlebars with simple conventions.",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethomasjoseph/handlebarsjs-faster.git"
+  },
+  "keywords": [
+    "Handlebars",
+    "HandlebarsJSFaster"
+    "conventions"
+  ],
+  "author": "Thomas Joseph <ethomas.joseph@gmail.com>",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethomasjoseph/handlebarsjs-faster/issues"
+  },
+  "homepage": "https://github.com/ethomasjoseph/handlebarsjs-faster#readme",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1"
+  }
+}

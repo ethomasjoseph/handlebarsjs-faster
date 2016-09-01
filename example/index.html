@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>hbHook Tests</title>
+</head>
+<body>
+
+<div id="main">
+	<h1>hbHook Tests</h1>
+	<div>
+		<h2>Block 1</h2>
+		<div id="canvas1" data-hb-canvas data-hb-use-template='{"id" : "block1-template"}' data-hb-data='{"url" : "example.json"}' style="border:1px solid #000">
+
+        </div>
+        
+		<h2>Block 2</h2>
+		<div id="canva2" data-hb-canvas data-hb-use-template='{"id" : "block1-template"}' data-hb-data='{"fn" : "getFakeData"}' style="border:1px solid #000">
+
+        </div>
+	</div>
+</div>
+
+<script id="block1-template" data-hb-template type="text/x-handlebars-template">
+    <p>
+        The following is the crew:
+    </p>
+    <ul>
+    {{#each people}}
+        <li>{{name}}, {{role}}</li>
+    {{/each}}
+    </ul>
+</script>
+    
+    
+<script src="../bower_components/handlebars/handlebars.min.js"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../src/main.js"></script>
+<script src="custom.js"></script>
+</body>
+</html>

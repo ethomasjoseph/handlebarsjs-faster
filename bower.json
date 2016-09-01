@@ -1,0 +1,27 @@
+{
+  "name": "handlebarsjs-faster",
+  "description": "Handlebars plumbing work which makes it easy to integrate Handlebars with simple conventions.",
+  "main": "dist/main.js",
+  "authors": [
+    "Thomas Joseph <ethomas.joseph@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "HandlebarsJSFaster",
+    "Handlebars",
+    "conventions"
+  ],
+  "homepage": "https://github.com/ethomasjoseph/handlebarsjs-faster",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^3.1.0"
+  }
+}

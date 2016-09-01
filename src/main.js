@@ -1,5 +1,5 @@
 /*!
- * handlebarsjs-faster
+ * HandlebarsJS Faster
  *
  * Released under the MIT license.
  */

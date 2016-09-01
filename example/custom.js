@@ -12,6 +12,6 @@ var getFakeData = function() {
     return { "people" : people };
 }
 
-hbhook.isEnabled();
-hbhook.registerPreInitCallbacks("hello");
-hbhook.init();
+hbfaster.isEnabled();
+hbfaster.registerPreInitCallbacks("hello");
+hbfaster.init();
